@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+
+class 
+
+void this_pointer(void)
+{
+cout << "In file..."<<__FILE__<<"...\t"<<"In func..."<<__func__<<"..."<<endl;
+
+}
