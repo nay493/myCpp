@@ -1,0 +1,56 @@
+--> stdio.h has the prototype of input(like scanf,getc,fread..etc) and output(like printf,putc,fwrite,fprintf,vfprintf,sprintf,snprintf...etc) realted functions
+
+iostream file in c++ location ??
+
+C++ is a middle-level programming language developed by Bjarne Stroustrup 
+C in 192 developed by Dennis Ritchie
+
+C vs C++
+=========
+C follows the procedural programming paradigm whereas C++ follows object oriented paradigm.
+In C, the data is insecure whereas the data is secure (hiding) in C++. The difference is due to specific OOP features like Data Hiding which are not present in C(refer Data Encapsulation in C++).
+ C is regarded as a low-level language (difficult interpretation & less user friendly) while C++ has features of both low-level (concentration on what's going on in the machine hardware) & high-level languages (concentration on the program itself) & hence is regarded as a middle-level language.
+Functions are building blocks of C whereas objects are building blocks of C++.
+C++ supports overloading(specify more than one definition for a function name or an operator in the same scope) whereas C does not. 
+Refer: http://www.tutorialspoint.com/cplusplus/cpp_overloading.htm
+In case of C++, functions can be used inside structures whereas structures cannot contain functions in C.
+C uses scanf and printf whereas C++ uses cin>> and cout<< as their respective input and output.
+
+programming paradigm
+=====================
+1. procedural paradigm==>instructions executed step-by-step(procedural programming also called Imperative programming & also known as top-down languagesex: c,COBOL..etc)
+2. object-oriented paradigm(ex: c#,java.perl,python,C++..etc)
+
+Different levels of languages(low,mid & high)
+=============================================
+http://www.codecommit.com/blog/java/defining-high-mid-and-low-level-languages
+==>C low level language & allows you direct access to registers and memory locations( simplification and increase of abstraction leads to mid-level languages)
+==>mid-level languages don’t compile directly down to the metal(means to the machine code)but always defined in terms of low-level languages (e.g. the Java compiler is bootstrapped from C).( further simplification and increase of abstraction leads to high-level languages)
+==>High-level languages are essentially mid-level languages which just take the concepts of abstraction and high-level constructs to the extreme. Ex: Java is mostly object-oriented, but it still relies on primitives which are represented directly in memory(i.e int,float..etc that is direct access to memory).  Ruby on the other hand is completely object-oriented.  It has no primitives (outside of the runtime implementation) and everything can be treated as an object.
+
+
+--> Naeem is a Muslim baby Boy name. It is an Arabic originated name. Naeem meaning is Comfort. Ease. Tranquil
+
+
+
+dharma@dharma:~/Videos/cpp/practise$ g++ -v
+Using built-in specs.
+COLLECT_GCC=g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.6/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5)
+
+
+Makefile error
+===============
+geditor-->edit-->preferences-->edior-->uncheck insert space instead of tabs
+
+
+Note:
+=====
+Class element is updated directly by its object only if the class element is public,If class element is either private or protected the class element can only be updated using a class element function
+
+
+
