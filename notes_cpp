@@ -1,3 +1,6 @@
+#
+# Author: Mohammed Nayeem
+#
 --> stdio.h has the prototype of input(like scanf,getc,fread..etc) and output(like printf,putc,fwrite,fprintf,vfprintf,sprintf,snprintf...etc) realted functions
 
 iostream file in c++ location ??
